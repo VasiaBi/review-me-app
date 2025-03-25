@@ -1,0 +1,58 @@
+/*colors
+291528 dark purple
+9e829c light purple
+0b0500 black
+f0eff4 white
+3a3e3b black olive
+*/
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #9e829c;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9e829c;;
+    height: 15vh;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0b0500;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    color: #0b0500;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item-right {
+    font-size: 1.2rem;
+    color: #0b0500;
+    padding-left: 500px;
+    font-family: 'Roboto Regular 400', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #291528;
+    color: #f0eff4;
+    width: 100%;
+}
