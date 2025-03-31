@@ -1,17 +1,102 @@
 /*colors
 291528 dark purple
 9e829c light purple
-0b0500 black
 f0eff4 white
 3a3e3b black olive
 */
+.text-dark {
+    color: #212529;
+}
+
+.yellow {
+    background-color: #FFC107;
+}
+
+.blue {
+    background-color: #1E90FF;
+}
+
+.purple {
+    background-color: #7D3C98;
+}
+
+.pink {
+    background-color: #FF6B6B;
+}
+
+.green {
+    background-color: #1ABC9C;
+}
+
+.bg-dark {
+    background-color: #B0BEC5;
+}
+
+.bg-light {
+    background-color: #F8F9FA;
+}
+
+.nav-text {
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.subtitle-long {
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.subtitle-short {
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.btn-prim {
+    background-color: #7D3C98;
+    color: #F8F9FA;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    padding: 12px 32px;
+    border-radius: 100px;
+    border: 2px #212529 solid;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-prim:hover {
+    background-color: #541D6B;
+    color: #F8F9FA;
+    border: 2px #212529 solid;
+}
 
 .nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 15vh;
-    background-color: #9e829c;
     width: 100%;
 }
 
@@ -33,26 +118,16 @@ f0eff4 white
 }
 
 .nav-item {
-    font-size: 1.2rem;
-    color: #0b0500;
     padding-right: 30px;
-    padding-left: 30px;
-    font-family: 'Roboto', sans-serif;
-}
+    padding-left: 30px;}
 
 .nav-item-right {
-    font-size: 1.2rem;
-    color: #0b0500;
     padding-left: 500px;
-    font-family: 'Roboto Regular 400', sans-serif;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
-    background-color: #291528;
-    color: #f0eff4;
     width: 100%;
 }
